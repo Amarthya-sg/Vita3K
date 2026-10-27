@@ -4,6 +4,10 @@
 [![Release](https://img.shields.io/github/v/release/Vita3K/Vita3K-builds?include_prereleases)](https://github.com/Vita3K/Vita3K/releases)
 [![Vita3K discord server](https://img.shields.io/discord/408916678911459329?color=5865F2&label=Vita3K%20&logo=discord&logoColor=white)](https://discord.gg/6aGwQzh)
 
+## Temporary Android Layout Editor Maintenance
+
+This fork will be maintained temporarily until the main Vita3K repository incorporates an improved Android layout editor. Once the upstream project includes an equivalent or better layout editor, this fork may no longer be actively maintained.
+
 ## Introduction
 
 Vita3K is an experimental PlayStation Vita emulator for Windows, Linux, macOS and Android.
