@@ -1,12 +1,10 @@
 # Vita3K
 
-[![C/C++ CI](https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Vita3K/Vita3K/actions/workflows/c-cpp.yml)
-[![Release](https://img.shields.io/github/v/release/Vita3K/Vita3K-builds?include_prereleases)](https://github.com/Vita3K/Vita3K/releases)
-[![Vita3K discord server](https://img.shields.io/discord/408916678911459329?color=5865F2&label=Vita3K%20&logo=discord&logoColor=white)](https://discord.gg/6aGwQzh)
-
 ## Temporary Android Layout Editor Maintenance
 
-This fork will be maintained temporarily until the main Vita3K repository incorporates an improved Android layout editor. Once the upstream project includes an equivalent or better layout editor, this fork may no longer be actively maintained.
+This fork will be maintained temporarily until the [main Vita3K repository](https://github.com/Vita3K/Vita3K) incorporates an improved Android layout editor. Once the upstream project includes an equivalent or better layout editor, this fork may no longer be actively maintained.
+
+I will try to catch up with updates from the main repository every week so this Android-focused fork stays reasonably close to upstream.
 
 ## Introduction
 
@@ -16,7 +14,9 @@ Vita3K is an experimental PlayStation Vita emulator for Windows, Linux, macOS an
 * [Wiki](https://github.com/Vita3K/Vita3K/wiki) (information for developers)
 * [Discord server](https://discord.gg/MaWhJVH) (recommended)
 
-## Vita3K Android Update
+## Vita3K Android Update & Upstream Sync
+
+This fork combines the latest upstream Vita3K code with Android-focused layout editor improvements and control customization features.
 
 ### Base version
 
@@ -41,7 +41,7 @@ This update started from Vita3K upstream `master` at commit `99ec7cad` (`kernel:
 * **Kernel timers:** Adds kernel timer event support.
 * **CJK firmware fonts:** Uses available bold firmware fonts when the preferred Japanese, Chinese, or Korean font files are unavailable.
 
-### Android overlay and editor changes
+### Android layout editor improvements
 
 * Added direct tap-to-select for controls in the on-screen overlay editor, with navigation controls available as an alternative.
 * Hidden controls remain visible but dimmed while editing, so they can be selected and re-enabled.
@@ -102,7 +102,7 @@ Check the [quickstart guide](https://vita3k.org/quickstart) to make sure your de
 The project is in an early stage, so please be mindful when opening new issues. Expect crashes, glitches, low compatibility and poor performance.
 
 ## Thanks
-Thanks go out to people who offered advice or otherwise made this project possible, such as Davee, korruptor, Rinnegatamante, ScHlAuChi, Simon Kilroy, TheFlow, xerpi, xyz, Yifan Lu and many others.
+Special thanks to the maintainers and contributors of the [main Vita3K repository](https://github.com/Vita3K/Vita3K) for their continued work on the emulator and its Android support. This fork builds on their upstream code while focusing on Android layout editor improvements.
 
 ## Note
 The purpose of this emulator is not to enable illegal activity. You can dump games from a Vita by using [NoNpDrm](https://github.com/TheOfficialFloW/NoNpDrm) or [FAGDec](https://github.com/CelesteBlue-dev/PSVita-RE-tools/tree/master/FAGDec/build). You can get homebrew programs from [VitaDB](https://www.rinnegatamante.eu/vitadb/#/).
