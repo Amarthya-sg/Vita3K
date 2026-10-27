@@ -217,7 +217,7 @@ This fork focuses on Android builds and Android layout-editor development.
 
 | Platform | Where to get it |
 | :-- | :-- |
-| **Android** | [Adreno drivers](https://github.com/K11MCH1/AdrenoToolsDrivers/releases/) |
+| **Android** | [Vita3K Android Layout Editor Update](https://github.com/Amarthya-sg/Vita3K/releases/tag/Updates) · [Adreno drivers](https://github.com/K11MCH1/AdrenoToolsDrivers/releases/) |
 | **Windows, Linux and others** | [Main Vita3K repository](https://github.com/Vita3K/Vita3K.git) |
 
 ---
